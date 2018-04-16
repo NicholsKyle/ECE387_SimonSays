@@ -10,12 +10,12 @@ Code and examples used to write a my version of the iconic simon says game
 
 1. [Arduino Uno](https://store.arduino.cc/usa/arduino-uno-rev3)
 2. [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-3. [Pmod MTDS](https://store.digilentinc.com/pmod-mtds-multi-touch-display-system/)  
-   **DISCLAIMER:** linked sites may not have the cheapest prices on the market
+3. [Pmod MTDS](https://store.digilentinc.com/pmod-mtds-multi-touch-display-system/)
 4. FAT formatted MicroSD card
 5. MicroSD card reader ** if your computer doesn't have one built in **
 6. Piezo speaker
-7. 100 ohm resistor
+7. 100 ohm resistor  
+**DISCLAIMER:** linked sites may not have the cheapest prices on the market
 ---
 
 ## Getting Started
