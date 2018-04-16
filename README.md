@@ -17,11 +17,11 @@ Code and examples used to write a my version of the iconic simon says game
 
 ## Getting Started
 
- 1. Pmod MTDS library 
+1. Pmod MTDS library 
    * Click [HERE](https://reference.digilentinc.com/reference/software/mtds/start) to download the libary and quick start guide for the MTDS.
    * Follow the instructions within the quick start quide to set up your SD card and to install the appropriate libraries onto your Arduino IDE
 
- 2. Connecting the Pmod MTDS to the Arduino  
+2. Connecting the Pmod MTDS to the Arduino  
    * Follow the instructions listed [HERE](https://forum.digilentinc.com/topic/9302-how-to-connect-a-pmod-mtds-to-an-arduino-uno/)  
    * Note regarding the reset pin (see excerpt below). By default the reset pin is set to the Arduino pin 5. If you are able to   use this pin with your setup then you don't need to do anything more. However, if pin 5 is already in use you can change it   using the following code.  
 ```
