@@ -16,6 +16,7 @@ This repositories includes detailed, step by step instructions on how to connect
 6. Piezo speaker
 7. 100 ohm resistor  
 **DISCLAIMER:** linked sites may not have the cheapest prices on the market
+
 ---
 
 ## Getting Started
@@ -50,13 +51,14 @@ You can change this to be any digital pin number on the Arduino. I would suggest
    * Before running my code read the [RULES](https://github.com/NicholsKyle/ECE387_SimonSays/blob/master/Added_Value/Rules:Instructions_SimonSays.pdf).
 
 ---
+
 ## Known Issues/ Notes
 
 1. The MTDS:
    * Touching ones nail to the screen will not register as a touch. 
 2. The system as a whole:
    * Touch messages received outside of the 'getUserCode' method will be saved and read later. Meaning that if you touch the screen when you arent supppose to, the system saves that message and reads it later - even if you have not touched the screen since the error touch.
-   * That being said: cheating is possible by using this flaw. The user is able to touch the screen while the compluter is displaying its code. If the user is fast enough, it is possible to copy the compluter as it displays its code.
+   * That being said: the user might use this flaw to cheat. The user is able to touch the screen while the computer is displaying its code. If the user is fast enough, it is possible to copy the compluter as it displays its code rather than waiting for the computer to finish.
 
 
 
