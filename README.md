@@ -38,7 +38,7 @@ You can change this to be any digital pin number on the Arduino. I would suggest
 ```
 3. Piezo speaker
    * If you need a quick refresher on how to connect/ use a Piezo speaker, [HERE](https://programmingelectronics.com/an-easy-way-to-make-noise-with-arduino-using-tone/) is a link to a simple example.
-   * I have my speaker attached to pin 3 of the Arduino.
+   * I have my speaker attached to pin 2 of the Arduino.
    
 4. Getting familiar with the MTDS
    * **WARNING** A few of the examples had compiler errors when I tried to run them. I skipped these examples and luckily I did not need them to understand how to use the MTDS.
