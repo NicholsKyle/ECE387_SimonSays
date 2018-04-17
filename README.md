@@ -46,8 +46,8 @@ You can change this to be any digital pin number on the Arduino. I would suggest
    * If you are here to follow this application then the examples that I found to be most helpful can be found [HERE](https://github.com/NicholsKyle/ECE387_SimonSays/tree/master/Example_Code). 
 
 5. Running my code
-   * Once you have the basics of the Pmod MTDS down you will be able to understand [my code](link). Most of the comments within my code are purely logic baised. **Do not** expect to learn the functionality of the Pmod MTDS from my code alone.
-   * Before running my code read the [RULES]().
+   * Once you have the basics of the Pmod MTDS down you will be able to understand [my code](https://github.com/NicholsKyle/ECE387_SimonSays/tree/master/Added_Value/SimonSays_Game). Most of the comments within my code are purely logic baised. **Do not** expect to learn the functionality of the Pmod MTDS from my code alone.
+   * Before running my code read the [RULES](https://github.com/NicholsKyle/ECE387_SimonSays/blob/master/Added_Value/Rules:Instructions_SimonSays.pdf).
 
 ---
 ## Known Issues/ Notes
