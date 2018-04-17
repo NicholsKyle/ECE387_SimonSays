@@ -46,8 +46,17 @@ You can change this to be any digital pin number on the Arduino. I would suggest
    * If you are here to follow this application then the examples that I found to be most helpful can be found [HERE](https://github.com/NicholsKyle/ECE387_SimonSays/tree/master/Example_Code). 
 
 5. Running my code
-   * Once you have the basics of the Pmod MTDS down you will be able to understand [my code](link). Most of the comments within my code are purely logic baised. **Do not** expect to learn the functionality of the Pmod MTDS from my code alone. 
+   * Once you have the basics of the Pmod MTDS down you will be able to understand [my code](link). Most of the comments within my code are purely logic baised. **Do not** expect to learn the functionality of the Pmod MTDS from my code alone.
+   * Before running my code read the [RULES]().
 
+---
+## Known Issues/ Notes
+
+1. The MTDS:
+   * Touching ones nail to the screen will not register as a touch. 
+2. The system as a whole:
+   * Touch messages received outside of the 'getUserCode' method will be saved and read later. Meaning that if you touch the screen when you arent supppose to, the system saves that message and reads it later - even if you have not touched the screen since the error touch.
+   * That being said: cheating is possible by using this flaw. The user is able to touch the screen while the compluter is displaying its code. If the user is fast enough, it is possible to copy the compluter as it displays its code.
 
 
 
