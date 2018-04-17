@@ -1,6 +1,6 @@
 # ECE387_SimonSays
 
-**Version 1.0.0**
+**Version 1.2.0**
 
 This repositories includes detailed, step by step instructions on how to connect and interface a Pmod MTDS with the Arduino Uno. References to examples and to my own code are provided along the way.
 
