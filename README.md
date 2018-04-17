@@ -2,7 +2,7 @@
 
 **Version 1.0.0**
 
-Code and examples used to write a my version of the iconic simon says game
+This repositories includes detailed, step by step instructions on how to connect and interface a Pmod MTDS with the Arduino Uno. References to examples and to my own code are provided along the way.
 
 ---
 
