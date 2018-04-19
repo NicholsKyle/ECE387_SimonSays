@@ -46,9 +46,11 @@ You can change this to be any digital pin number on the Arduino. I would suggest
    * If you're planing on using the MTDS outside of this application, it would be in your best interest, at this point, to go through the 'MtdsDemo' and 'MydispDemo' examples. These examples are in the 'MTDS' zip file which contained the quick start guide. **NOTE** if you are unable to open the examples (ex. "MyDispDemo3.pde"), it is because your computer does not recognize the '.pde' file type. **SOLUTION** right click on the example you are trying to open. Go to 'open with' and select your prefered text editor app. Now copy and paste the code into an Arduino IDE sketch.
    * If you are here to follow this application then the examples that I found to be most helpful can be found [HERE](https://github.com/NicholsKyle/ECE387_SimonSays/tree/master/Example_Code). 
 
-5. Running my code
+5. STOP! Before running my code, read the [RULES](https://github.com/NicholsKyle/ECE387_SimonSays/blob/master/Added_Value/Rules:Instructions_SimonSays.pdf), you will be very confused if you skip this step
+
+6. Running my code
    * Once you have the basics of the Pmod MTDS down you will be able to understand [my code](https://github.com/NicholsKyle/ECE387_SimonSays/tree/master/Added_Value/SimonSays_Game). Most of the comments within my code are purely logic baised. **Do not** expect to learn the functionality of the Pmod MTDS from my code alone.
-   * Before running my code read the [RULES](https://github.com/NicholsKyle/ECE387_SimonSays/blob/master/Added_Value/Rules:Instructions_SimonSays.pdf).
+
 
 ---
 
