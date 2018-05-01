@@ -109,7 +109,7 @@ void loop() {
   // loop through the game until the current level reaches the max level
   while(level <= maxLevel){
 
-    // hold the current (level - 1) this is how many levels the user has completed
+    // hold (level - 1) as this is how many levels the user has completed
     lastGameScore = level - 1;
     itoa (lastGameScore, holdLastGameScore, 10);
              
