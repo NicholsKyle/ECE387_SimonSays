@@ -15,9 +15,7 @@ HDS   hdsFng2;
 HBMP  hbmpFng2;
 
 // =================== varrables for game
-// maxLevel represents the number of levels 
-// the user must traverse before the game is won
-const int maxLevel = 10;
+const int maxLevel = 150;
 int master[maxLevel];
 int user[maxLevel];
 int level = 1;
