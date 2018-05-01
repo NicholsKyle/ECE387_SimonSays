@@ -13,7 +13,7 @@ This repositories includes detailed, step by step instructions on how to connect
 3. [Pmod MTDS](https://store.digilentinc.com/pmod-mtds-multi-touch-display-system/)
 4. FAT formatted MicroSD card
 5. MicroSD card reader (if your computer doesn't have one built in)
-6. Piezo speaker 
+6. Piezo speaker   
 **DISCLAIMER:** linked sites may not have the cheapest prices on the market
 
 ---
