@@ -213,7 +213,9 @@ void drawWelcomeScreen() {
   char message4[ ] = "Last game score was = ";
   
 
-  // display the last game score
+  // convert the (int) lastGameScoreore 
+  // to a (char[]) holdLastGameScore
+  // this must be done in order to print the score
   itoa (lastGameScore, holdLastGameScore, 10);
   
   // Get the DS for drawing on the display and initialize it.
@@ -224,11 +226,13 @@ void drawWelcomeScreen() {
   mtds.SetDrwRop(hdsDisp, drwCopyPen);
   mtds.SetFont(hdsDisp, hfntConsole);
   
-  // print the messages
+  // draw the messages
   mtds.TextOut(hdsDisp, 2, 2, strlen(message), message);
   mtds.TextOut(hdsDisp, 2, 22, strlen(message2), message2);
   mtds.TextOut(hdsDisp, 2, 32, strlen(message3), message3);
   mtds.TextOut(hdsDisp, 2, 52, strlen(message4), message4);
+  
+  // draw the score onto the same line as message4
   mtds.TextOut(hdsDisp, 180, 52, strlen(holdLastGameScore), holdLastGameScore);
 
   // always release the mtds
