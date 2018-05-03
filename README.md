@@ -6,18 +6,6 @@ This repositories includes detailed, step by step instructions on how to connect
 
 ---
 
-## Pre-requisites
-
-1. [Arduino Uno](https://store.arduino.cc/usa/arduino-uno-rev3)
-2. [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-3. [Pmod MTDS](https://store.digilentinc.com/pmod-mtds-multi-touch-display-system/)
-4. FAT formatted MicroSD card
-5. MicroSD card reader (if your computer doesn't have one built in)
-6. Piezo speaker   
-**DISCLAIMER:** linked sites may not have the cheapest prices on the market
-
----
-
 ## Getting Started
 
 1. Download and follow the MTDS quick start guide
@@ -47,18 +35,3 @@ You can change this to be any digital pin number on the Arduino. I would suggest
 
 5. Running my code
    * Once you have the basics of the Pmod MTDS down you will be able to understand [my code](https://github.com/NicholsKyle/ECE387_SimonSays/blob/master/Added_Value/SimonSays_Game/SimonSays_Game.ino). Most of the comments within my code are purely logic baised. **Do not** expect to learn the functionality of the Pmod MTDS from my code alone.
-
-
----
-
-## Known Issues/ Notes
-
-1. The MTDS:
-   * Touching ones nail to the screen will not register as a touch. 
-2. The system as a whole:
-   * Touch messages received outside of the 'getUserCode' method will be saved and read later. Meaning that if you touch the screen when you arent supppose to, the system saves that message and reads it later - even if you have not touched the screen since the error touch.
-   * That being said: the user might use this flaw to cheat. The user is able to touch the screen while the computer is displaying its code. If the user is fast enough, it is possible to copy the compluter as it displays its code rather than waiting for the computer to finish.
-
-
-
-
