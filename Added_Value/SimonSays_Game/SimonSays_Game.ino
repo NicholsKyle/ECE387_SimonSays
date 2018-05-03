@@ -94,7 +94,8 @@ void setup() {
       delay(1000);
     }
   }
-    if (mtds.SetDisplayOrientation(dsoLandscape)) {
+  // the following statment sets up the display in landscape mode
+  if (mtds.SetDisplayOrientation(dsoLandscape)) {
     Serial.println("mtds.SetDisplayOrientation() succeeded");
   }
   else {
