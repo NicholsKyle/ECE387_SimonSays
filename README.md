@@ -41,7 +41,7 @@ You can change this to be any digital pin number on the Arduino. I would suggest
 3. Getting familiar with the MTDS
    * **WARNING** A few of the examples had compiler errors when I tried to run them. I skipped these examples and luckily I did not need them to understand how to use the MTDS.
    * If you're planing on using the MTDS outside of this application, it would be in your best interest, at this point, to go through the 'MtdsDemo' and 'MydispDemo' examples. These examples are in the 'MTDS' zip file which contained the quick start guide. **NOTE** if you are unable to open the examples (ex. "MyDispDemo3.pde"), it is because your computer does not recognize the '.pde' file type. **SOLUTION** right click on the example you are trying to open. Go to 'open with' and select your prefered text editor app. Now copy and paste the code into an Arduino IDE sketch.
-   * If you are here to follow this application then the examples that I found to be most helpful can be found [HERE](https://github.com/NicholsKyle/ECE387_SimonSays/tree/master/Example_Code). 
+   * If you are here to follow this application then the examples that I found to be most helpful can be found [HERE](https://github.com/NicholsKyle/ECE387_SimonSays/tree/master/Example_Code/Most_Helpful). 
 
 4. STOP! Before running my code, read the [GAMEPLAY/ RULES](https://github.com/NicholsKyle/ECE387_SimonSays/blob/master/Added_Value/Rules:Instructions_SimonSays.pdf) document
 
