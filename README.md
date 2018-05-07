@@ -14,7 +14,7 @@ This repositories includes detailed, step by step instructions on how to connect
    * Follow the instructions within the quick start quide to set up your SD card and to install the appropriate libraries onto the Arduino IDE.
 
 2. Connecting the Pmod MTDS to your Arduino Uno
-   * Follow the instructions listed [HERE](https://forum.digilentinc.com/topic/9302-how-to-connect-a-pmod-mtds-to-an-arduino-uno/).
+   * See [this](https://github.com/NicholsKyle/ECE387_SimonSays/wiki/My-Design#schematic-drawing) page for the Arduino to MTDS pin out.
    * **Note** regarding the reset pin (see excerpt below). By default the reset pin is set to the Arduino pin 5. If this pin is available for use in your design, then you do not need to worry about setting a new pin. However, if you are already using pin 5, you can set the reset to a new pin by using the following code: 
 
 ```
