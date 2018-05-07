@@ -18,12 +18,12 @@ This repositories includes detailed, step by step instructions on how to connect
    * **Note** regarding the reset pin (see excerpt below). By default the reset pin is set to the Arduino pin 5. If this pin is available for use in your design, then you do not need to worry about setting a new pin. However, if you are already using pin 5, you can set the reset to a new pin by using the following code: 
 
 ```
-Reset on the Pmod MTDS relates to the CS pin number +5. You can find this in the MtdsHal.cpp on line 233  
+// Reset on the Pmod MTDS relates to the CS pin number +5. You can find this in the MtdsHal.cpp on line 233  
 
 bool MtdsHalResetDisplay(int pinSel) {
     int pinRst = pinSel + 5;
 
-You can change this to be any digital pin number on the Arduino. I would suggest choosing a digital pin from 5 - 7.
+// You can change this to be any digital pin number on the Arduino. I would suggest choosing a digital pin from 5 - 7.
 ```
    
 3. Getting familiar with the MTDS
